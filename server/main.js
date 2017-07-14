@@ -1,5 +1,11 @@
 import { Meteor } from 'meteor/meteor';
 
 Meteor.startup(() => {
-  // code to run on server at startup
+
+  	//setup stripe
+  	stripe = require("stripe")(
+	  Meteor.settings.private.stripe
+	);
+
 });
+

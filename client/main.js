@@ -16,7 +16,20 @@ Template.hello.helpers({
 
 Template.hello.events({
   'click button'(event, instance) {
+
     // increment the counter when button is clicked
     instance.counter.set(instance.counter.get() + 1);
   },
 });
+
+
+function create(){
+	console.log(Stripe);
+	/*stripe.customers.create(
+		{ email: 'customer@example.com' },
+		function(err, customer) {
+			console.log(err); // null if no error occurred
+			console.log(customer); // the created customer object
+		}
+	);*/
+}
