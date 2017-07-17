@@ -21,7 +21,7 @@ Meteor.methods({
 			}
 		);
 	},
-	'stripe.plans.deleteAll': function(){
+	'stripe.plans.deleteAll': function(callback){
 		
 		stripe.plans.list(
 			{},

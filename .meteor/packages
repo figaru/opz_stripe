@@ -19,3 +19,22 @@ shell-server@0.2.3            # Server-side component of the `meteor shell` comm
 
 autopublish@1.0.7             # Publish all data to the clients (for prototyping)
 insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
+
+
+#STRIPE
+standard-app-packages
+underscore
+accounts-password
+accounts-base
+jquery
+check
+audit-argument-checks
+iron:router
+cmather:handlebars-server
+themeteorchef:jquery-validation
+twbs:bootstrap
+random
+
+momentjs:moment
+themeteorchef:bert
+mrgalaxy:stripe

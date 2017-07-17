@@ -1,0 +1,10 @@
+<template name="selectPlan">
+  <div class="list-group select-plan">
+    {{#each plans}}
+      <a href="#" class="list-group-item">
+        <input type="radio" name="selectPlan" id="selectPlan_{{plan_id}}" value="{{plan_id}}">
+        {{name}} <span class="pull-right">{{amount}} / {{interval}}</span>
+      </a>
+    {{/each}}
+  </div>
+</template>
